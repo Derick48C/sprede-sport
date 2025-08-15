@@ -191,7 +191,7 @@ function sorted(object) {
 }
 Teams = sorted(Teams);
 //Teams.forEach((y) => console.log(y.d));
-var html = ["<table><tr><th>Pos.</th><th>Team</th><th>MP</th><th>G</th><th>W</th><th>D</th><th>L</th><th>P</th></tr>"];
+var html = ["<table><tr><th>Pos.</th><th>Team</th><th>MP</th><th>GD</th><th>W</th><th>D</th><th>L</th><th>PTS</th></tr>"];
 console.log("Creating Table...");
 function createTable(list) {
   let elem = '';
