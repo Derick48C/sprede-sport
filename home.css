@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #131f32;
+  color: white;
+}
+.top {
+  color: aqua;
+  padding: 20px;
+  text-align: center;
+  background-color: #131d24;
+}
+
+.top h1 {
+  display: inline-block;
+  border-bottom: 6px solid orange;
+  font-weight: 1000;
+  white-space: pre;
+  overflow-x: auto;
+  animation: close 1s ease;
+}
+
+.to-title:hover {
+  animation: close 1s ease;
+}
+
+@keyframes close {
+  to {
+    width: 100%;
+    scale: 1.1;
+  }
+  from {
+    width: 0%;
+  }
+}
+.table-view {
+  padding: 20px;
+}
+td {
+  border: 1px solid slateblue;
+  padding: 5px;
+}
+table {
+  border-collapse: collapse;
+}
+td:nth-child(3),td:nth-child(4),td:nth-child(5),td:nth-child(6),
+td:nth-child(7),td:nth-child(8){
+  width: 30px;
+  text-align: center;
+  font-weight: 500;
+}
+td:nth-child(8) {
+  font-weight: 1000;
+}
+tr:nth-of-type(even) {
+  background-color: #131d24;
+}
+tr:hover {
+  background-color: #ccc;
+  color: tomato;
+  animation: scale 0.5s ease;
+}
+
+@keyframes scale {
+  to {transform: scale(1.1);}
+}
+.definer-view {
+  padding: 20px;
+  background-color: #1e1e1e;
+  color: #fff;
+}
+.definer-view p {
+  font-weight: 1000;
+  color: tomato;
+  font-size: 1.2rem;
+}
+.definer-view p span {
+  font-size: 1rem;
+  font-weight: normal;
+  color: lawngreen;
+}
+footer {
+  background-color: #242424;
+  text-align: center;
+  font-size: 0.8em;
+}
+.fix-table {
+  padding: 20px;
+}
+.match-view {
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid slateblue;
+  margin-top: 30px;
+}
+.time-view {
+  margin-left: 65%;
+  display: inline-block;
+  border-left: 2px solid slateblue;
+  text-align: center;
+  padding: 4% 10px 0 10px;
+  background-color: ;
+  position: absolute;
+  height: 6vh;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.team-view {
+  display: flex;
+  overflow-x: auto;
+  white-space: pre;
+  width: 70%;
+  background-color: ;
+  
+} .live {
+  border: 2px solid lawngreen;
+  animation: dim 1s infinite alternate;
+}
+.liveTime {
+  color: lawngreen;
+}
+@keyframes dim {
+  from {
+    opacity: 100%
+  }
+  to {
+    opacity: 70%;
+  }
+}
+.team-name {
+  text-align: center;
+  padding: 10px;
+  width: 40%;
+}
+.team-goals {
+  text-align: center;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: aqua;
+}
+.team-scorers {
+  overflow-y: auto;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.8rem;
+  color: orange;
+  
+}
+.fix-table hr {
+  width: 70%;
+  border: 1px solid slateblue;
+}
+footer span {
+  color: tomato;
+  font-size: 0.9rem;
+}
+.navs {
+  padding: 15px;
+  text-align: center;
+  background-color: #1e1e1e;
+  display: flex;
+}
+#navFst, #navSec {
+  display: inline-block;
+  border-bottom: 2px solid tomato;
+}
+#navFst {
+  margin-left: 15%;
+}
+#navSec {
+  margin-left: 20%;
+}
+#navFst:hover, #navSec:hover {
+  scale: 1.5;
+  color: tomato;
+}
