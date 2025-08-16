@@ -5,4 +5,4 @@ Get Sport News Here
 **For Issue Reporting**....
 <a href="https://wa.me/254789925270">Whatsapp Me</a>
 # App File
-<a href="">SpreeSports_1.0_sign.apk</a>
+<a href="https://github.com/Derick48C/sprede-sport/releases/download/untagged-a984fde0df7171c11249/SpreeSports_1.0_sign.apk">SpreeSports_1.0_sign.apk</a>
